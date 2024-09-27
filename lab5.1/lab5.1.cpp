@@ -9,7 +9,6 @@ double h(const double x, const double y);
 int main()
 {
 	double s, t;
-
 	cout << "s = "; cin >> s;
 	cout << "t = "; cin >> t;
 	double c = h(s, t * t) + h(t, 1 + s * s) * h(t, 1 + s * s);
